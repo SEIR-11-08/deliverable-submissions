@@ -1,4 +1,4 @@
-# Deliverables Submission Instructions
+# Submitting Deliverables
 
 We will have you follow these steps when copying down the deliverable assignments and then submitting them.
 
