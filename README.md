@@ -44,12 +44,9 @@ At this point we want to copy the repository from our account onto our own compu
 
 4. Click on the green button that says code. It should bring up a drop down with the Git URL for the repository on our own account. Click on the clipboard icon to copy the Git URL to your clipboard.
 
-<figure>
 
 ![Copy git url](./images/copy-git-url.png)
-<figcaption align="center">Note: Be sure to click on "SSH" before copying the url!</figcaption>
-</figure>
-<br/>
+<p><strong>** Note:</strong> Be sure to click on "SSH" before copying the url!</p>
 
 ---
 
@@ -158,11 +155,8 @@ Once you've completed all of the assignment double check that all of your work h
 
 <br/>
 
-<figure>
-
-  ![git push origin master](./images/git-push.png)
-  <figcaption align="center">Note: The picture says "master" but you should use "main"!</figcaption>
-</figure>
+![git push origin master](./images/git-push.png)
+<p><strong>** Note:</strong> The picture says "master" but you should use "main"!</p>
 
 <br/>
 
