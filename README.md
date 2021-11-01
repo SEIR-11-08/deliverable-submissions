@@ -28,7 +28,7 @@ This will take you to the repo for that assignment. _Notice the top right corner
 
 ---
 
-3. From there you will propted with a popup asking where you would like to "fork" the repo to. Select your own github account here.
+3. From there you will prompted with a popup asking where you would like to "fork" the repo to. Select your own github account here.
 
 ![Assignment repo](./images/where-to-fork.png)
 
@@ -44,19 +44,22 @@ At this point we want to copy the repository from our account onto our own compu
 
 4. Click on the green button that says code. It should bring up a drop down with the Git URL for the repository on our own account. Click on the clipboard icon to copy the Git URL to your clipboard.
 
-![Copy git url](./images/copy-git-url.png)
+<figure>
 
+![Copy git url](./images/copy-git-url.png)
+<figcaption align="center">Note: Be sure to click on "SSH" before copying the url!</figcaption>
+</figure>
 <br/>
 
 ---
 
-If you haven't already, create a directory in your `sei` directory called `diliverables` to store all of your deliverable assignments.
+If you haven't already, create a directory in your `sei` directory called `deliverables` to store all of your deliverable assignments.
 
 5. In your terminal navigate to your `deliverables` directory and type `git clone` and then paste in the Git URL you copied from your clipboard.
 
 The command will look something like this.
 ```bash
-git clone https://git.generalassemb.ly/msolorio-ga/HW-Loops-Conditionals.git
+git clone git@github.com:msolorio-ga/HW-Loops-Conditionals.git
 ```
 Run that command and git will create a new directory with the name shown in the URL. In this case the directory will be called HW-Loops-Conditionals.
 
@@ -151,11 +154,15 @@ Once you've completed all of the assignment double check that all of your work h
 
 <br/>
 
-2. Run `git push origin master`. After a second or two you will see an output that looks like this.
+2. Run `git push origin main`. After a second or two you will see an output that looks like this.
 
 <br/>
 
-![git push origin master](./images/git-push.png)
+<figure>
+
+  ![git push origin master](./images/git-push.png)
+  <figcaption align="center">Note: The picture says "master" but you should use "main"!</figcaption>
+</figure>
 
 <br/>
 
